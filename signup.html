@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM REGISTRASI AKUN SISWA</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div class="contact-form">
+		<hr>
+		<h2 style="text-align: center;">DAFTAR AKUN</h2>
+		<hr>
+		<h2 style="text-align: center;">SMA Persada Internasional</h2>
+		<hr>
+		<form method="get" action="file:///C:/Users/5-Bit/Downloads/tugas%20form/selamat.html">
+			<fieldset>
+			<legend>DATA AKUN</legend>
+			<hr>
+			<hr>
+			<div>
+				<label style="text-align: center;">Nama Lengkap</label>
+				<br>
+				<div>
+					<input type="text" name="NAMA_LENGKAP" placeholder="Nama lengkap">
+				</div>
+			</div>
+			<div>
+				<label style="text-align: center;">Jenis Kelamin</label>
+				<br>
+				<div>
+					<input type="radio" name="jk" value="L"> Laki-laki
+					<input type="radio" name="jk" value="P"> Perempuan
+				</div>
+			</div>
+			<br>
+			<div>
+				<label style="text-align: center;">Email</label>
+				<br>
+				<div>
+					<input type="Email" placeholder="co:/email.email@yahoo.com">
+				</div>
+			</div>
+			<div>
+				<label style="text-align: center;">Password</label>
+				<br>
+				<div>
+					<input type="Password" autocomplete="off" placeholder="8-10 characters" pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).*$" title=" Your password must contain at least one number digit (ex: 0, 1, 2, 3, etc.) 5) Your password must contain at least one special character">
+				</div>
+			</div>
+			<div>
+				<label style="text-align: center;">Tempat, Tanggal Lahir</label>
+				<br>
+				<div>
+					<input type="text" placeholder="Tempat">
+					<input type="date" name="tempat_tanggal_lahir">
+				</div>
+			</div>
+			<div>
+				<label style="text-align: center;">Alamat</label>
+				<br>
+				<div>
+					<textarea name="alamat" rows="4" cols="30"></textarea>
+				</div>
+			</div>
+			<br>
+			<div>
+				<label style="text-align: center;">Prodi atau Jurusan</label>
+				<br>
+				<div>
+					<select>
+						<option value="">---Pilih---</option>
+						<option value="TI">Teknik Informatika</option>
+						<option value="SI">Sistem Informasi</option>
+					</select>
+				</div>
+			</div>
+			<br>
+			<div>
+					<button style="text-align: center;">DAFTAR</button>
+			</div>
+			</fieldset>						
+		</form>
+	</div>
+
+</body>
+</html>
